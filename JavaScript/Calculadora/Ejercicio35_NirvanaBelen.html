@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--CALCULADORA-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="Estilos_35.css">
+    <script src="calculator.js"></script>
+</head>
+
+<body>
+    <section class="container">
+        <h1>
+            <p>DISEÑO DE CALCULADORA</p>
+        </h1>
+        <table>
+            <tr class="barradelcero">
+                <td colspan="4"><button class="result">0</button></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="del()" class="ac">AC</button></td>
+                <td><button id="primerafila" onclick="add('-')">+/-</button></td>
+                <td><button id="primerafila" onclick="add('%')">%</button></td>
+                <td><button id="filanaranja" onclick="add('/')">/</button></td>
+            </tr>
+
+            <tr>
+                <td id="segundafila"><button onclick="add('7')">7</button></td>
+                <td id="segundafila"><button onclick="add('8')">8</button></td>
+                <td id="segundafila"><button onclick="add('9')">9</button></td>
+                <td><button id="filanaranja" onclick="add('*')">x</button></td>
+            </tr>
+
+            <tr>
+                <td id="tercerafila"><button onclick="add('4')">4</button></td>
+                <td id="tercerafila"><button onclick="add('5')">5</button></td>
+                <td id="tercerafila"><button onclick="add('6')">6</button></td>
+                <td><button id="filanaranja" onclick="add('-')">-</button></td>
+            </tr>
+
+            <tr>
+                <td id="cuartafila"><button onclick="add('1')">1</button></td>
+                <td id="cuartafila"><button onclick="add('2')">2</button></td>
+                <td id="cuartafila"><button onclick="add('3')">3</button></td>
+                <td><button id="filanaranja" onclick="add('+')">+</button></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" id="ultimocero"><button onclick="add('0')">0</button></td>
+                <td id="quintafila"><button onclick="add('.')">.</button></td>
+                <td><button id="filanaranja" onclick="calc()">=</button></td>
+            </tr>
+
+        </table>
+
+    </section>
+</body>
+
+</html>
