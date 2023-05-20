@@ -44,6 +44,17 @@ class Cliente:
         """
         return f"({self.curp}) {self.nombre} {self.apellido}"
 
+    def to_dict(self):
+        """
+        Devuelve una cadena a diccionario para la api.
+
+        Retorna:
+        --------
+        str
+            Un diccionario.
+        """
+        return {'Curp': self.curp, 'Nombre': self.nombre, 'Apellido': self.apellido}
+
 
 class Clientes:
     """
