@@ -1,14 +1,15 @@
 # Gestor de Clientes
 
 Este es un proyecto de Python que implementa un pequeño programa de gestión de clientes usando una base de datos
-en formato CSV, se puede ejecutar de varias maneras mediante la terminal. El programa presenta un menú de opciones para
-que el usuario pueda listar, buscar, añadir, modificar o borrar clientes. **Se puede abordar más información en el archivo run.py.**
+en formato CSV,  se puede ejecutar de varias maneras mediante la terminal, mediante una intefaz gráfica o mediante una API desarrollada en Uvicorn. El programa presenta un menú de opciones para que el usuario pueda listar, buscar, añadir, modificar o borrar clientes. **Se puede abordar más información en el archivo run.py.**
 
 ## Ejecución
 
 Para poder ejecutar desde la terminal: `python3 run.py -t`
 
 Para poder ejecutar desde la interfaz: `python3 run.py`
+
+Para poder ejecutar desde la API: `pipenv run uvicorn api:app --reload`
 
 ## Instalación
 
@@ -29,6 +30,7 @@ Para poder utilizar el proyecto o modificarlo puedes:
 Para poder usar el proyecto puedes ejecutar la interfaz desde:
 Para poder ejecutar desde la terminal: `python3 run.py -t`
 Para poder ejecutar desde la interfaz: `python3 run.py`
+Para poder ejecutar desde la API: `pipenv run uvicorn api:app --reload`
 
 Si tienes dudas del funcionamiento de una clase o función puedes agregar una línea de código como: 
 `help(función/clase)` para saber más de ella o leer mi documentación.
