@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Usuarios</title>
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center mt-5">Lista de Usuarios</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Expediente</th>
+          <th scope="col">Foto</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Apellido Paterno</th>
+          <th scope="col">Apellido Materno</th>
+          <th scope="col">Profesión</th>
+          <th scope="col">Edad</th>
+          <th scope="col">Genero</th>
+          <th scope="col">País</th>
+          <th scope="col">Ciudad</th>
+        </tr>
+      </thead>
+      <tbody>
+
+          {% for usr in get_usuarios %}
+        <tr>
+          <td>{{ usr.expediente }}</td>
+          <td><img src="{{ usr.photo.url }}" width="40" height="40" style="border-radius:50px;"></td>
+          <td>{{ usr.nombre }}</td>
+          <td>{{ usr.apellidopaterno }}</td>
+          <td>{{ usr.apellidomaterno }}</td>
+          <td>{{ usr.profesion }}</td>
+          <td>{{ usr.edad }}</td>
+          <td>{{ usr.genero }}</td>
+          <td>{{ usr.pais }}</td>
+          <td>{{ usr.ciudad }}</td>
+        </tr>
+          {% endfor %}
+
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
