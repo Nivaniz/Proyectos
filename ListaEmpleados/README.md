@@ -1,4 +1,4 @@
-# Lista de Clientes
+# Lista de Personas
 
 Este es un proyecto de Django desde un entorno virtual que te permite visualizar una base de datos de acerca de información de personas de manera dinámica. Si agregas más personas desde /admin apareceran en la view /lista
 
