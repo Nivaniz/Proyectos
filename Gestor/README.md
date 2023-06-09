@@ -32,6 +32,18 @@ Para poder ejecutar desde la terminal: `python3 run.py -t`
 Para poder ejecutar desde la interfaz: `python3 run.py`
 Para poder ejecutar desde la API: `pipenv run uvicorn api:app --reload`
 
+## Ejemplo de Uso
+
+### API:
+<div style="display: flex; flex-wrap: nowrap; justify-content: center;">
+  <img src="https://github.com/Nivaniz/Proyectos/blob/main/Gestor/api.png" alt="API" style="width: 100%; max-width: 50%;">
+</div>
+
+### Interfaz:
+<div style="display: flex; flex-wrap: nowrap; justify-content: center;">
+  <img src="https://github.com/Nivaniz/Proyectos/blob/main/Gestor/interfaz.png" alt="Interfaz" style="width: 100%; max-width: 50%;">
+</div>
+
 Si tienes dudas del funcionamiento de una clase o función puedes agregar una línea de código como: 
 `help(función/clase)` para saber más de ella o leer mi documentación.
 
