@@ -22,6 +22,10 @@ Para poder utilizar el proyecto o modificarlo puedes:
 
 ## Uso
 
+<div style="display: flex; flex-wrap: nowrap; justify-content: center;">
+  <img src="https://github.com/Nivaniz/Proyectos/blob/main/ListaEmpleados/imagenuno.png" alt="Inicio" style="width: 100%; max-width: 50%;">
+  <img src="https://github.com/Nivaniz/Proyectos/blob/main/ListaEmpleados/imagen%20dos.png" alt="Lista" style="width: 100%; max-width: 50%;">
+</div>
 
 
 ### Autoría
