@@ -57,11 +57,6 @@ https://github.com/Nivaniz/Proyectos/tree/main/ExcelGrafico
 
 En este proyecto utilicé la librería openpyxl de Python para procesar y modificar un archivo de Excel. Iterando a través de cada fila de la hoja de trabajo y multiplica el valor en la columna C por 0.9, agrega una columna adicional a la hoja de trabajo que contiene los valores corregidos, crea una gráfica de barras a partir de los valores corregidos y la agrega a la hoja de trabajo en la celda E2. El propósito de este código es procesar y modificar un archivo de Excel para corregir valores y crear una gráfica de barras a partir de los valores corregidos. Para ver el diseño y sus componentes pueden entrar a su repositorio en la carpeta llamada por su nombre.
 
-- # AGCO Exel: 
-https://github.com/Nivaniz/Proyectos/tree/main/EmpleadosExcelManejo
-
-Este es un programa de Python que utiliza la biblioteca Tkinter para crear una interfaz gráfica de usuario (GUI) que permite agregar y eliminar empleados de un archivo Excel. El programa carga un archivo Excel llamado "empleados.xlsx" y muestra sus datos en una tabla en la GUI. También hay dos botones: "Agregar empleado" y "Eliminar empleado". En resumen, el propósito de este programa es proporcionar una interfaz gráfica fácil de usar para agregar y eliminar empleados de un archivo Excel. Para ver el diseño y sus componentes pueden entrar a su repositorio en la carpeta llamada por su nombre.
-
 - # App de Notas: 
 https://github.com/Nivaniz/Proyectos/tree/main/AplicacionNotas
 
