@@ -6,11 +6,6 @@ Son libres de modificación o de su libre utilización. La documentación se enc
 
 ## Acerca de:
 
-- # Gestor: 
-https://github.com/Nivaniz/Proyectos/tree/main/Gestor
-
-Este es un proyecto de Python que implementa un pequeño programa de gestión de clientes usando una base de datos en formato CSV, se puede ejecutar de varias maneras mediante la terminal, mediante una intefaz gráfica o mediante una API desarrollada en Uvicorn. El programa presenta un menú de opciones para que el usuario pueda listar, buscar, añadir, modificar o borrar clientes. Para ver el diseño y sus componentes pueden entrar a su repositorio en la carpeta llamada por su nombre.
-
 - # TacoQueto Website: 
 https://github.com/Nivaniz/Proyectos/tree/main/TacoQueto%20Website
 
