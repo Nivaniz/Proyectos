@@ -6,11 +6,6 @@ Son libres de modificación o de su libre utilización. La documentación se enc
 
 ## Acerca de:
 
-- # TacoQueto Website: 
-https://github.com/Nivaniz/Proyectos/tree/main/TacoQueto%20Website
-
-Este proyecto es una página web simple aceca de una taquería, utilizando *HTML, CSS, JS* y unas cuantas imagenes, que sirve como plantilla a algún otra página web, el propósito de este sitio web es proporcionar información sobre los servicios que ofrece la "empresa", incluyendo una descripción detallada de productos, visión y misión, opiniones de consumidores y la ubicación del local. Además, el sitio web permitirá a los clientes ponerse en contacto con la "empresa". Para ver el diseño y sus componentes pueden entrar a su repositorio en la carpeta llamada por su nombre.
-
 - # Sistema de Películas: 
 https://github.com/Nivaniz/Proyectos/tree/main/SistemaDePeliculas
 
