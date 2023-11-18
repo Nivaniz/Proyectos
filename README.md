@@ -57,7 +57,7 @@ https://github.com/Nivaniz/Proyectos/tree/main/AplicacionNotas
 
 Este código es una aplicación de editor de texto básico construido utilizando la biblioteca Tkinter de Python. La aplicación tiene una barra de menú que permite al usuario crear un nuevo archivo, abrir un archivo existente, guardar un archivo y guardar un archivo con un nombre diferente. También hay una opción de salida para cerrar la aplicación. En el centro de la ventana de la aplicación hay una caja de texto que permite al usuario escribir y editar texto. En la parte inferior de la ventana hay un monitor de estado que muestra mensajes de estado como "Guardando..." o "El archivo se ha abierto correctamente". Totalmente funcionable.  Para ver el diseño y sus componentes pueden entrar a su repositorio en la carpeta llamada por su nombre.
 
-- # App de Notas: 
+- # Calculadora Sencilla: 
 https://github.com/Nivaniz/Proyectos/tree/main/Calculadora
 
 Este es un programa desarrollado en Python, una calculadora con interfaz generada dinámicamente.
