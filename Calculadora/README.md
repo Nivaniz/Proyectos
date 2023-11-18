@@ -10,7 +10,7 @@ Este es un programa desarrollado en Python, una calculadora con interfaz generad
 
 Ventana Principal:
 <p align="center">
-  <img src="https://github.com/Nivaniz/CalculadoraSencilla/blob/main/img/main.png" alt="Main Window" style="width: 50%; max-width: 200px;">
+  <img src="https://github.com/Nivaniz/Proyectos/blob/main/Calculadora/img/main.png" alt="Main Window" style="width: 50%; max-width: 200px;">
 </p>
 
 ## Ejecución 
